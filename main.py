@@ -3,7 +3,6 @@ from pynput.keyboard import Key, Controller
 import pyperclip, os
 
 os.system("clear")
-os.system("cls")
 
 keyboard = Controller()
 print("(!) This script allows you to rapidly generate Reverse TCP exploits via msfvenom.")
@@ -16,7 +15,6 @@ print("-" * 60)
 selector = ""
 
 os.system("clear")
-os.system("cls")
 
 payloadType = raw_input("(?) Linux, Windows, Mac, PHP, ASP, JSP, WAR, Python, Bash, Perl? ")
 payloadTypeNew = payloadType.lower()
@@ -112,4 +110,4 @@ else:
 
 print("")
 print("")
-raw_input("Press any button to continue...")
+raw_input(g"Press any button to continue...")
