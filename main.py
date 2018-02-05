@@ -1,6 +1,9 @@
 #This script is intented to be working in Python 2.7 and extremely useful if you're using Kali Linux.
 from pynput.keyboard import Key, Controller
-import pyperclip
+import pyperclip, os
+
+os.system("clear")
+os.system("cls")
 
 keyboard = Controller()
 print("(!) This script allows you to rapidly generate Reverse TCP exploits via msfvenom.")
@@ -11,6 +14,9 @@ port = raw_input("(?) What is your desired Port? ")
 print("-" * 60)
 
 selector = ""
+
+os.system("clear")
+os.system("cls")
 
 payloadType = raw_input("(?) Linux, Windows, Mac, PHP, ASP, JSP, WAR, Python, Bash, Perl? ")
 payloadTypeNew = payloadType.lower()
@@ -103,3 +109,7 @@ elif selector == "linux":
 
 else:
     pass
+
+print("")
+print("")
+raw_input("Press any button to continue...")
